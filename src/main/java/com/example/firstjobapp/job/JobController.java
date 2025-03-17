@@ -12,7 +12,7 @@ public class JobController {
 
     @GetMapping("/test")
     public ResponseEntity<Map<String,String>> test() {
-        return ResponseEntity.ok().body(Map.of("Testing!!!!!!!!!", "Up an Running"));
+        return ResponseEntity.ok().body(Map.of("Testing Working", "Up an Running"));
 
     }
 
