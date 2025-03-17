@@ -1,10 +1,10 @@
-package com.example.firstjobapp;
+package com.example.cicdpipeline;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FirstjobappApplicationTests {
+class CicdpipelineApplicationTests {
 
 	@Test
 	void contextLoads() {
